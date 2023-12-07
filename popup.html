@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOTP</title>
+    <link rel="stylesheet" href="./popup.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./images/banner.png" alt="banner" />
+        </div>
+        <div class="body">
+            <div class="tabs">
+                <div class="sidebar">
+                    <!-- tabs buttons  -->
+                    <button class="tab-btn tab-btn-active" id="hr-login">Login</button>
+                    <button class="tab-btn" id="hr-signup">Signup</button>
+                </div>
+                <!-- tabs content  -->
+                <div class="hr-content">
+                    <!-- <div class="float-right" id="refresh">Refresh Time : <span id="timer">??s</span></div><br/><br/> -->
+                    <div class="tab-content tab-content-active" id="hr-login-content">
+                        <form id="loginForm">
+                            <input type="text" id="username" name="username" placeholder="Username" required>
+                        
+                            <br /><br />
+                        
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                        
+                            <br /><br />
+                        
+                            <input type="submit" value="LOGIN">
+                        </form>
+                        <div class="external-link">
+                            <a href="#">Forget Password?</a>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="hr-signup-content">
+                        <form id="signupForm">
+                            <input type="text" id="s-username" name="username" placeholder="Username" required>
+                        
+                            <br /><br />
+                        
+                            <input type="password" id="s-password" name="password" placeholder="Password" required>
+                        
+                            <br /><br />
+                        
+                            <input type="submit" value="SIGNUP">
+                        </form>
+                    </div>
+                </div>
+                <div class="popup bg-green">
+                    <span id="popup-message">This is a Default message to show!</span>
+                    <span class="float-right" id="popup-times">&times;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./popup.js"></script>
