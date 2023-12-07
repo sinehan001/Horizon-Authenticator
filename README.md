@@ -3,6 +3,7 @@
 
 **⚠️Warning: This project is currently under active development. Use with caution, and be aware that features, functionality, and security measures may undergo frequent updates and changes. Contributions, feedback, and bug reports are highly encouraged.**
 
+# Horizon Authenticator - Chrome Extension for Seamless 2FA Authentication
 
 ## Overview
 
